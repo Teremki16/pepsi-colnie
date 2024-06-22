@@ -190,7 +190,7 @@ h3 {
   gap: 5px;
 }
 
-@media all and (max-width: 222px) {
+@media all and (max-width: 450px) {
   .cardscontainer { 
     margin: 0%;
   }
@@ -232,7 +232,56 @@ h3 {
     padding: 0px 40px;
     text-align: center;
   }
-  
-  
 
+  .card{
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    margin-right: 0;
+  }
+  .card3{
+    text-align: center;
+  }
+  .card1488{
+    margin-right: 0;
+  }
+  .card2 h1{
+    text-align: center;
+  }
+  .cardscontainer{
+    flex-direction: column;
+  }
+}
+.headerUl li:hover{
+  animation:fadeIn;
+  animation-duration: 2s;
+}
+.containertwo .skills:hover{
+  animation:bounceIn;
+  animation-duration: 2s;
+  animation-delay: 0.25s;
+}
+.cardcontainer  h1:hover{
+  animation:fadeIn;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+}
+.container1:hover h1{
+  animation: fadeIn;
+  animation-duration: 2s;
+}
+.container1:hover h3{
+
+}
+.card2:hover h1{
+  animation:fadeInLeft;
+  animation-duration: 2s;
+}
+.card4:hover h1{
+  animation:fadeInLeft;
+  animation-duration: 2s;
+}
+.container a:hover{
+   animation:fadeInLeft;
+  animation-duration: 2s; 
 }
